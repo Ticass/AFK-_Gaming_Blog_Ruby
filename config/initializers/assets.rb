@@ -12,3 +12,21 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
+
+Rails.application.config.assets.precompile += %w( jquery-3.2.1.min.js )
+Rails.application.config.assets.precompile += %w( owl.carousel.min.js owl.carousel.min.css )
+Rails.application.config.assets.precompile += %w( jquery.slicknav.min.js slicknav.min.css )
+Rails.application.config.assets.precompile += %w( jquery.sticky-sidebar.min.js )
+Rails.application.config.assets.precompile += %w( jquery.magnific-popup.min.js)
+Rails.application.config.assets.precompile += %w( bootstrap.min.js bootstrap.min.css )
+Rails.application.config.assets.precompile += %w( font-awesome.min.css)
+Rails.application.config.assets.precompile += %w( slicknav.min.css )
+Rails.application.config.assets.precompile += %w( magnific-popup.css )
+Rails.application.config.assets.precompile += %w( animate.css )
+Rails.application.config.assets.precompile += %w( style.css)
+Rails.application.config.assets.precompile += %w( main.js )
+
+
+
+
+

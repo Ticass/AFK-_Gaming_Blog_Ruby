@@ -12,12 +12,14 @@
  *
  *= require_tree .
  *= require_self
- //= require animate.css
- //= require bootstrap.min.css
- //= require font-awesome.min.css
- //= require landing.css
- //= require magnific-popup.css
- //= require owl.carousel.min.css
- //= require slicknav.min.css
- //= require style.css
+ *= require animate.css
+ *= require bootstrap.min.css
+ *= require font-awesome.min.css
+ *= require landing.css
+ *= require magnific-popup.css
+ *= require owl.carousel.min.css
+ *= require slicknav.min.css
+ *= require style.css
+ *= require owl.carousel
+ *= require owl.theme
  */
